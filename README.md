@@ -38,3 +38,5 @@ Two options:
 ## To do
 
 * Add a lesson on constructors and destructors in part 1
+* Overload methods
+* Overload output operators
