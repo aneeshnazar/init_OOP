@@ -34,3 +34,7 @@ Two options:
 1) provide resources folder that the student writes supplementary code for, and tries to match outputs with.
 
 2) 100% theory - student answers questions about OOP and correctors look for keywords. Student googles and discusses answers with peers.
+
+## To do
+
+* Add a lesson on constructors and destructors in part 1
