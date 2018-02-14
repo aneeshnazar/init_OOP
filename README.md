@@ -38,5 +38,6 @@ Two options:
 ## To do
 
 * Add a lesson on constructors and destructors in part 1
+* Getters and setters for private members
 * Overload methods
 * Overload output operators

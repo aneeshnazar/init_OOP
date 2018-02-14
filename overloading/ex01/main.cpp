@@ -1,14 +1,14 @@
-#include "ComplexNumber.Class.hpp"
 #include <iostream>
+#include "HelloBot.Class.hpp"
 
 int main(void)
 {
-    ComplexNumber   c(1.0, 2.0);
-    ComplexNumber   d(3.0, 1.0);
-    ComplexNumber   e = c + d;
+    HelloBot h1 = HelloBot();
+    HelloBot h2 = HelloBot("Chuckles");
+    HelloBot h3 = HelloBot("Stan");
 
-    std::cout << "C = " << c.getReal() << " + " << c.getIm() << "i" << std::endl;
-    std::cout << "D = " << d.getReal() << " + " << d.getIm() << "i" << std::endl;
-    std::cout << "C + D = " << e.getReal() << " + " << e.getIm() << "i" << std::endl;
+    h1.announce();
+    h2.announce();
+    h3.announce("I don't say hi.");
     return 0;
 }

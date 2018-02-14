@@ -11,6 +11,9 @@ class ComplexNumber {
         ~ComplexNumber ();
         double  getReal(void);
         double  getIm(void);
+        /*
+        ** Your code here
+        */
 };
 
 /*
